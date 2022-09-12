@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +40,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+}
+
+.block {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 25px;
 }
