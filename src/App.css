@@ -62,3 +62,13 @@
   flex-direction: column;
   margin: 25px;
 }
+
+
+.select{
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.networkChainId{
+  margin: 20px
+}
